@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- build:css styles/application.css -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/application.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic Tac Toe</h1>
+
+      <div class="startGame">
+          <h4 class="well">Table size is 3 x 3</h4>
+          <button class="btn btn-success generateField">Start Game</button>
+      </div>
+
+      <div class="mainGame">
+          <button class="btn btn-default startNewGame">Start New Game</button>
+          <div class="winner-message"></div>
+          <div class="field">
+          </div>
+      </div>
+
+    </div>
+
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/getWinner.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
